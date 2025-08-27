@@ -1,0 +1,230 @@
+@media screen and (max-width : 1880px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width : 1470px) {
+    html {
+        font-size: 12px;
+    }
+
+    header {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width : 1270px) {
+    .portfolio2 .portfolio-inner .txtBox p {
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width : 1110px) {
+    header {
+        width: 70%;
+    }
+
+    strong {
+        font-weight: 500;
+    }
+
+    main h2 {
+        font-size: 8rem;
+    }
+
+    main h2 span::after {
+        height: 6rem;
+    }
+
+    .about .about-self {
+        grid-template-areas:
+            'img txt txt'
+            'tool icon icon';
+    }
+
+    .about .txtBox {
+        padding: 0;
+        padding-right: 4rem;
+    }
+
+    .about .txtBox .none {
+        display: none;
+    }
+
+    .about .toolBox h3 {
+        text-align: center;
+    }
+
+    .about .toolBox .tools {
+        justify-content: center;
+    }
+
+    .about .iconBox {
+        gap: 1rem;
+    }
+
+    .portfolio1 .portfolio-inner .original {
+        padding: 4px 10px;
+        font-weight: 500;
+    }
+
+    .portfolio2 .portfolio-inner .txtBox p {
+        margin: 3rem 0;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    header {
+        width: 80%;
+    }
+
+    header nav ul li {
+        padding: 5px;
+    }
+
+    main h2 {
+        font-size: 7rem;
+    }
+
+    main h2 span::after {
+        height: 5rem;
+    }
+
+    .portfolio1 .portfolio-inner .original {
+        padding: 3px 8px;
+    }
+
+    .portfolio2 .portfolio-inner .txtBox {
+        width: 50%;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width : 914px) {
+    html {
+        font-size: 11px;
+    }
+
+    .about .about-self {
+        grid-template-areas:
+            'img img txt'
+            'tool tool icon';
+    }
+}
+
+@media screen and (max-width : 864px) {
+    .portfolio1 .portfolio-inner .original {
+        right: 10%;
+        bottom: 25%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    .about .iconBox .icon img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .portfolio1 .portfolio-inner .original {
+        font-weight: 500;
+        padding: 2px 5px;
+        border: 1.5px solid skyblue;
+    }
+
+    .portfolio2 .portfolio-inner .txtBox h3 {
+        font-size: 3rem;
+    }
+
+    .portfolio2 .portfolio-inner a {
+        font-weight: 500;
+        padding: 4px 10px;
+        border: 1.5px solid skyblue;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .about .about-self {
+        padding: 0;
+        padding-top: 3rem;
+        align-items: start;
+        height: 55vh;
+    }
+
+    .about p {
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width : 582px) {
+    html {
+        font-size: 8px;
+    }
+
+    .about .about-self {
+        align-items: center;
+        grid-template-areas:
+            'img tool tool'
+            'icon icon icon';
+    }
+
+    .about .txtBox {
+        display: none;
+    }
+
+    .about .toolBox h3 {
+        text-align: left;
+    }
+
+    .about .toolBox .tools {
+        padding-right: 10rem;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+
+    .about .toolBox .tools .toolsName {
+        margin-bottom: 0;
+    }
+
+    .about .iconBox {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width : 465px) {
+    .about .iconBox {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .portfolio1 .portfolio-inner h3 .none {
+        display: block;
+    }
+
+    .portfolio1 .portfolio-inner .original {
+        bottom: 8%;
+        right: 8%;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .portfolio1 .portfolio-inner .original {
+        bottom: 5%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width : 340px) {
+    html {
+        font-size: 7px;
+    }
+
+    header nav ul li {
+        padding: 3px;
+    }
+}
